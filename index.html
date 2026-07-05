@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Behringer PRO MIXER DJX750</title>
+<style>
+body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#ececec;color:#333}
+.hero{position:relative}
+.hero img{width:100%;max-height:520px;object-fit:cover;display:block}
+.overlay{position:absolute;left:0;right:0;bottom:0;background:rgba(0,0,0,.6);color:#fff;padding:24px}
+main{max-width:1000px;margin:auto;padding:20px}
+.card{background:#fff;padding:22px;border-radius:10px;margin:20px 0;box-shadow:0 2px 10px rgba(0,0,0,.15)}
+table{width:100%;border-collapse:collapse}
+th,td{padding:10px;border-bottom:1px solid #ddd;text-align:left}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.gallery img{width:100%;border-radius:8px;cursor:pointer}
+details{margin:10px 0}
+summary{font-weight:bold;cursor:pointer}
+#lb{display:none;position:fixed;inset:0;background:rgba(0,0,0,.9);align-items:center;justify-content:center}
+#lb img{max-width:92%;max-height:92%}
+footer{text-align:center;color:#666;padding:30px}
+</style>
+</head>
+<body>
+
+<header class="hero">
+<img src="bilder/titel.jpg" alt="Behringer DJX750">
+<div class="overlay">
+<h1>Behringer PRO MIXER DJX750</h1>
+<p>Professioneller 5‑Kanal‑DJ‑Mixer • Sehr guter Zustand</p>
+</div>
+</header>
+
+<main>
+
+<div class="card">
+<h2>Ausführliche Produktinformationen</h2>
+<p>Diese Seite ergänzt meine Anzeige bei Kleinanzeigen und enthält zusätzliche Fotos und technische Informationen.
+Preis, Verfügbarkeit und Kontakt ausschließlich über Kleinanzeigen.</p>
+
+<table>
+<tr><th>Zustand</th><td>Sehr gut</td></tr>
+<tr><th>Nutzung</th><td>Ausschließlich privat</td></tr>
+<tr><th>Funktion</th><td>Voll funktionsfähig</td></tr>
+<tr><th>Ehemaliger Neupreis</th><td>249 €</td></tr>
+<tr><th>Versand</th><td>Möglich</td></tr>
+<tr><th>Vorführung</th><td>Nach Absprache</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h2>Bildergalerie</h2>
+<div class="gallery">
+<img src="bilder/titel.jpg" alt="">
+<img src="bilder/rueckseite.jpg" alt="">
+<img src="bilder/oben.jpg" alt="">
+<img src="bilder/schraeg.jpg" alt="">
+</div>
+</div>
+
+<div class="card">
+<h2>Beschreibung</h2>
+<p>Hiermit verkaufe ich meinen Behringer PRO MIXER DJX750. Der Mixer wurde ausschließlich privat genutzt und pfleglich behandelt.
+Alle Fader, Potis, LEDs und Anschlüsse funktionieren einwandfrei. Teilweise befinden sich sogar noch die Schutzfolien auf den Displays.</p>
+<ul>
+<li>5 Kanäle inkl. Mikrofonkanal</li>
+<li>24‑Bit Digital‑Effektprozessor</li>
+<li>Dualer BPM‑Counter</li>
+<li>3‑Band‑EQ pro Kanal</li>
+<li>XPQ 3D Surround</li>
+<li>Ultraglide‑Fader</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Technische Informationen</h2>
+
+<details open><summary>Kanäle & Anschlüsse</summary>
+<p>4 Stereo-Kanäle, Mikrofonkanal, Phono-, Line-, Booth-, Tape-, Main- und FX-Anschlüsse.</p>
+</details>
+
+<details><summary>Effekte</summary>
+<p>24‑Bit DSP mit Delay, Reverb, Flanger, Filter, Phaser und weiteren Effekten.</p>
+</details>
+
+<details><summary>Monitoring</summary>
+<p>Cue, Split-Cue, Master/Cue-Mix sowie separater Kopfhörerpegel.</p>
+</details>
+
+<details><summary>Lieferumfang</summary>
+<ul>
+<li>Behringer PRO MIXER DJX750</li>
+<li>Netzkabel</li>
+<li>Bedienungsanleitung</li>
+</ul>
+</details>
+
+<details><summary>Abholung & Versand</summary>
+<p>Abholung in 02692 Obergurig mit Vorführung nach Absprache möglich. Versicherter Versand bei Kostenübernahme ebenfalls möglich.</p>
+</details>
+
+<details><summary>Rechtlicher Hinweis</summary>
+<p>Privatverkauf unter Ausschluss jeglicher Gewährleistung, Garantie und Rücknahme.</p>
+</details>
+
+</div>
+
+</main>
+
+<footer>
+Kontakt bitte ausschließlich über Kleinanzeigen.
+</footer>
+
+<div id="lb"><img alt=""></div>
+
+<script>
+const lb=document.getElementById('lb');
+const im=lb.querySelector('img');
+document.querySelectorAll('.gallery img').forEach(i=>{
+ i.onclick=()=>{im.src=i.src;lb.style.display='flex';};
+});
+lb.onclick=()=>lb.style.display='none';
+</script>
+
+</body>
+</html>
