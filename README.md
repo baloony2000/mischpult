@@ -1,2 +1,2 @@
-# mischpult
+# mischpult verkauft
 Beschreibungsseite
